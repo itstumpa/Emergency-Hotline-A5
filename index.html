@@ -22,12 +22,12 @@
 
 <nav class="bg-white my-3 ">
       <!-- logo  -->
-      <div class="flex items-center justify-between max-w-[1800px] mx-4 sm:px-6 lg:px-10">
-
+      <div class="flex flex-col md:flex-row items-center justify-between  mx-4 sm:px-6 lg:px-10">
+<!-- max-w-[1800px] -->
       
       <div class="flex items-center gap-2 ">
             <img class="w-[50px] h-[50px]" src="./assets/logo.png" alt="" srcset="">
-            <h2 class="hidden font-black text-lg sm:text-xl md:text-2xl leading-none text-[#006747]">Emergency <br> Service</h2>
+            <h2 class=" font-black text-lg sm:text-xl md:text-2xl leading-none text-[#006747]">Emergency <br> Service</h2>
             
       </div>
       <!-- right side of nav  -->
@@ -64,11 +64,12 @@
 
 <!-- grid section  -->
 <section class="bg-[#ecfff0] pb-16">
+            <!-- card parent  -->
 
-<!-- card1  -->
-<div class=" grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 max-w-[1800px] lg:mx-10 pt-10 mt-8 text-black mx-4" >
-      
-      <div class="card sm:px-6 bg-white px-4 rounded-md shadow-sm pt-4">
+      <div class=" grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4  lg:px-10 pt-10 mt-8 text-black mx-4 sm:px-6" > 
+            
+            <!-- card 1  -->
+      <div class="card bg-white px-4 rounded-md shadow-sm pt-4">
             <span class="flex items-center justify-between ">
             <div class="bg-[#FFE3E2] rounded-lg p-2 flex items-center justify-center">
   <img class="w-5 h-5" src="./assets/emergency.png" alt="">
@@ -76,13 +77,13 @@
             <i class="fa-regular fa-heart cardLoveIcon"></i>
             </span>
             <div class="cardContainer">
-            <h3 class="tagline font-bold text-base sm:text-lg md:text-xl mt-2 ">National Emergency Number</h3>
-            <p class="leading-none text-xs sm:text-sm mb-5">National Emergency</p>
-            <h2 class="cardText callCard font-bold text-2xl sm:text-3xl mt-8">999</h2>
-            <buttton class="bg-[#efefef] p-2 rounded-full mb-6">All</buttton>
+            <h3 class="tagline font-bold text-xl mt-2 ">National Emergency Number</h3>
+            <p class="leading-none text-sm mb-5">National Emergency</p>
+            <h2 class="cardText callCard font-bold text-3xl mt-8 mb-1">999</h2>
+            <buttton class="bg-[#efefef] py-2 px-4 rounded-full mb-6">All</buttton>
             <div class="callCard">
-                  <button class="copyBtn px-16 py-2 border-2 border-gray-200 bg-white hover:bg-gray-300 cursor-pointer transition-all duration-300 rounded-lg mt-7 mb-12 text-[#828282] text-xs sm:text-sm"><i class="fa-regular fa-copy mr-2"></i>Copy</button>
-                  <button class="call-btn bg-[#00A63E]  hover:bg-[#008a31] cursor-pointer transition-all duration-300 px-16 py-2 rounded-lg mt-7 mb-12 text-white text-xs sm:text-sm"><i class="fa-solid fa-phone mr-2 "></i>Call</button>
+                  <button class="copyBtn px-16 py-2 border-2 border-gray-200 bg-white hover:bg-gray-300 cursor-pointer transition-all duration-300 rounded-lg mt-7 mb-12 text-[#828282] text-sm"><i class="fa-regular fa-copy mr-2"></i>Copy</button>
+                  <button class="call-btn bg-[#00A63E]  hover:bg-[#008a31] cursor-pointer transition-all duration-300 px-16 py-2 rounded-lg mt-7 mb-12 text-white text-sm"><i class="fa-solid fa-phone mr-2 "></i>Call</button>
                   
             </div>
             </div>
@@ -91,6 +92,7 @@
       <!-- card 2 -->
 <div>
       <div class="card bg-white px-6 rounded-md shadow-sm pt-4">
+            
             <span class="flex items-center justify-between ">
             <div class="bg-[#FFE3E2] rounded-lg p-2 flex items-center justify-center">
   <img class="w-5 h-5" src="./assets/police.png" alt="">
@@ -98,12 +100,12 @@
             <i class="fa-regular fa-heart cardLoveIcon"></i>
             </span>
             <div class="cardContainer">
-            <h3 class="tagline font-bold text-[20px] mt-2 ">Police Helpline Number</h3>
+            <h3 class="tagline font-bold text-xl mt-2">Police Helpline Number</h3>
             <p class="leading-none text-sm mb-5">Police</p>
-            <h2 class="cardText callCard font-bold text-[30px]">999</h2>
-            <buttton class="bg-[#efefef] p-2 rounded-full mb-6">Police</buttton>
+            <h2 class="cardText callCard font-bold text-3xl mt-8 mb-1">999</h2>
+            <buttton class="bg-[#efefef] py-2 px-4 rounded-full mb-6">Police</buttton>
             <div>
-                  <button class="copyBtn px-16 py-2 border-2 border-gray-200 bg-white hover:bg-gray-300 cursor-pointer transition-all duration-300 rounded-lg mt-7 mb-12 text-[#828282] text-sm"><i class="fa-regular fa-copy mr-2"></i>Copy</button>
+                  <button class="copyBtn px-16 py-2 border-2 border-gray-200 bg-white hover:bg-gray-300 cursor-pointer transition-all duration-300 rounded-lg mt-7 mb-12 text-[#828282] text-sm"><i class="fa-regular fa-copy mr-2 "></i>Copy</button>
                   <button class="call-btn bg-[#00A63E] hover:bg-[#008a31] cursor-pointer transition-all duration-300 px-16 py-2  rounded-lg mt-7 mb-12 text-white text-sm"><i class="fa-solid fa-phone mr-2 "></i>Call</button>
                   
             </div>
@@ -123,7 +125,7 @@
             <h3 class="tagline font-bold text-[20px] mt-2 ">Fire Service Number</h3>
             <p class="leading-none text-sm mb-5">Fire Service</p>
             <h2 class="cardText callCard font-bold text-[30px]">999</h2>
-            <buttton class="bg-[#efefef] p-2 rounded-full mb-6">Fire</buttton>
+            <buttton class="bg-[#efefef] py-2 px-4 rounded-full mb-6">Fire</buttton>
             <div>
                   <button class="copyBtn px-16 py-2 border-2 border-gray-200 bg-white hover:bg-gray-300 cursor-pointer transition-all duration-300 rounded-lg mt-7 mb-12 text-[#828282] text-sm"><i class="fa-regular fa-copy mr-2"></i>Copy</button>
                   <button class="call-btn bg-[#00A63E] hover:bg-[#008a31] cursor-pointer transition-all duration-300 px-16 py-2  rounded-lg mt-7 mb-12 text-white text-sm"><i class="fa-solid fa-phone mr-2 "></i>Call</button>
@@ -161,7 +163,7 @@
             <h3 class="tagline font-bold text-[20px] mt-2 ">Ambulance Service</h3>
             <p class="leading-none text-sm mb-5">Ambulance</p>
             <h2 class="cardText callCard font-bold text-[30px]">1994-999999</h2>
-            <buttton class="bg-[#efefef] p-2 rounded-full mb-6">Health</buttton>
+            <buttton class="bg-[#efefef] py-2 px-4 rounded-full mb-6">Health</buttton>
             <div>
                   <button class="copyBtn px-16 py-2 border-2 border-gray-200 bg-white hover:bg-gray-300 cursor-pointer transition-all duration-300 rounded-lg mt-7 mb-12 text-[#828282] text-sm"><i class="fa-regular fa-copy mr-2"></i>Copy</button>
                   <button class="call-btn bg-[#00A63E] hover:bg-[#008a31] cursor-pointer transition-all duration-300 px-16 py-2 rounded-lg mt-7 mb-12 text-white text-sm"><i class="fa-solid fa-phone mr-2 "></i>Call</button>
@@ -183,7 +185,7 @@
             <h3 class="tagline font-bold text-[20px] mt-2 ">Women & Child Helpline</h3>
             <p class="leading-none text-sm mb-5">Women & Child Helpline</p>
             <h2 class="cardText callCard font-bold text-[30px]">109</h2>
-            <buttton class="bg-[#efefef] p-2 rounded-full mb-6">Help</buttton>
+            <buttton class="bg-[#efefef] py-2 px-4 rounded-full mb-6">Help</buttton>
             <div>
                   <button class="copyBtn px-16 py-2 border-2 border-gray-200 bg-white hover:bg-gray-300 cursor-pointer transition-all duration-300 rounded-lg mt-7 mb-12 text-[#828282] text-sm"><i class="fa-regular fa-copy mr-2"></i>Copy</button>
                   <button class="call-btn bg-[#00A63E] hover:bg-[#008a31] cursor-pointer transition-all duration-300 px-16 py-2  rounded-lg mt-7 mb-12 text-white text-sm"><i class="fa-solid fa-phone mr-2 "></i>Call</button>
@@ -205,7 +207,7 @@
             <h3 class="tagline font-bold text-[20px] mt-2 ">Anti-Corruption Helpline</h3>
             <p class="leading-none text-sm mb-5">Anti-Corruption</p>
             <h2 class="cardText callCard font-bold text-[30px]">106</h2>
-            <buttton class="bg-[#efefef] p-2 rounded-full mb-6">Govt.</buttton>
+            <buttton class="bg-[#efefef] py-2 px-4 rounded-full mb-6">Govt.</buttton>
             <div>
                   <button class="copyBtn px-16 py-2 border-2 border-gray-200 bg-white hover:bg-gray-300 cursor-pointer transition-all duration-300 rounded-lg mt-7 mb-12 text-[#828282] text-sm"><i class="fa-regular fa-copy mr-2"></i>Copy</button>
                   <button class="call-btn bg-[#00A63E] hover:bg-[#008a31] cursor-pointer transition-all duration-300 px-16 py-2  rounded-lg mt-7 mb-12 text-white text-sm"><i class="fa-solid fa-phone mr-2 "></i>Call</button>
@@ -231,7 +233,7 @@
             <h3 class="tagline font-bold text-[20px] mt-2 ">Electricity Helpline</h3>
             <p class="leading-none text-sm mb-5">Electricity Outage</p>
             <h2 class="cardText callCard font-bold text-[30px]">16216</h2>
-            <buttton class="bg-[#efefef] p-2 rounded-full mb-6">Electricity</buttton>
+            <buttton class="bg-[#efefef] py-2 px-4 rounded-full mb-6">Electricity</buttton>
             <div>
                   <button class="copyBtn px-16 py-2 border-2 border-gray-200 bg-white hover:bg-gray-300 cursor-pointer transition-all duration-300 rounded-lg mt-7 mb-12 text-[#828282] text-sm"><i class="fa-regular fa-copy mr-2"></i>Copy</button>
                   <button class="call-btn bg-[#00A63E] hover:bg-[#008a31] cursor-pointer transition-all duration-300 px-16 py-2  rounded-lg mt-7 mb-12 text-white text-sm"><i class="fa-solid fa-phone mr-2 "></i>Call</button>
@@ -254,7 +256,7 @@
             <h3 class="tagline font-bold text-[20px] mt-2 ">Brac Helpline</h3>
             <p class="leading-none text-sm mb-5">Brac</p>
             <h2 class="cardText callCard font-bold text-[30px]">16445</h2>
-            <buttton class="bg-[#efefef] p-2 rounded-full mb-6">NGO</buttton>
+            <buttton class="bg-[#efefef] py-2 px-4 rounded-full mb-6">NGO</buttton>
             <div>
                   <button class="copyBtn px-16 py-2 border-2 border-gray-200 bg-white hover:bg-gray-300 cursor-pointer transition-all duration-300 rounded-lg mt-7 mb-12 text-[#828282] text-sm"><i class="fa-regular fa-copy mr-2"></i>Copy</button>
                   <button class="call-btn bg-[#00A63E] hover:bg-[#008a31] cursor-pointer transition-all duration-300 px-16 py-2  rounded-lg mt-7 mb-12 text-white text-sm"><i class="fa-solid fa-phone mr-2 "></i>Call</button>
@@ -276,7 +278,7 @@
             <h3 class="tagline font-bold text-[20px] mt-2 ">Bangladesh Railway Helpline </h3>
             <p class="leading-none text-sm mb-5">Bangladesh Railway</p>
             <h2 class="cardText callCard font-bold text-[30px]">163</h2>
-            <buttton class="bg-[#efefef] p-2 rounded-full mb-6">Travel</buttton>
+            <buttton class="bg-[#efefef] py-2 px-4 rounded-full mb-6">Travel</buttton>
             <div>
                   <button class="copyBtn px-16 py-2 border-2 border-gray-200 bg-white hover:bg-gray-300 cursor-pointer transition-all duration-300 rounded-lg mt-7 mb-12 text-[#828282] text-sm"><i class="fa-regular fa-copy mr-2"></i>Copy</button>
                   <button class="call-btn bg-[#00A63E] hover:bg-[#008a31] cursor-pointer transition-all duration-300 px-16 py-2  rounded-lg mt-7 mb-12 text-white text-sm"><i class="fa-solid fa-phone mr-2 "></i>Call</button>

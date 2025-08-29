@@ -28,5 +28,6 @@ It’s useful because it saves time, and also works if new elements are added la
 
 5. Difference between preventDefault() and stopPropagation()?
 
-preventDefault() stops the browser’s normal action, like link not opening or form not submitting. we did it in the class also.
-stopPropagation() stops the event from going up to the parent.
+preventDefault() is for stopping the browser’s normal action. Like if I click a link, it won’t open, or if I submit a form, it won’t actually submit.
+
+But stopPropagation() is different… it doesn’t stop the default action, it just stops the event from moving up to the parent elements. So the parent’s event won’t get triggered.
