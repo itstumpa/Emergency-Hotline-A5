@@ -20,25 +20,26 @@
 </head>
 <body class="font_Hind_Madurai">
 
-<nav class="bg-white my-3">
+<nav class="bg-white my-3 ">
       <!-- logo  -->
-      <div class="flex items-center justify-between max-w-[1800px] mx-10">
+      <div class="flex items-center justify-between max-w-[1800px] mx-4 sm:px-6 lg:px-10">
 
       
       <div class="flex items-center gap-2 ">
             <img class="w-[50px] h-[50px]" src="./assets/logo.png" alt="" srcset="">
-            <h2 class=" font-black text-[22px] leading-none text-[#006747]">Emergency <br> Service</h2>
+            <h2 class=" font-black text-lg sm:text-xl md:text-2xl leading-none text-[#006747]">Emergency <br> Service</h2>
+            
       </div>
       <!-- right side of nav  -->
       <div class="flex items-center">
             <div>
-            <button  style="background-color: rgba(65, 255, 107, 0.1)" class=" rounded-full text-md px-6 py-2 w-[100px] h-[50px] text-black font-extrabold mr-3"><span class="flex gap-2 items-center text-center">
+            <button  style="background-color: rgba(65, 255, 107, 0.1)" class="text-sm sm:text-base w-[90px] sm:w-[100px] h-[44px] sm:h-[50px] rounded-full text-md px-6 py-2 text-black font-extrabold mr-3"><span class="flex gap-2 items-center text-center">
         <span id="loveCount">0</span>
         <img id="topLoveIcon" class="w-[30px] h-[30px]" src="./assets/heart.png" alt="heart">
     </span></button>
             </div>
             <div class="navbar">
-            <button id="coinBalanceBtn" style="background-color: rgba(65, 255, 107, 0.1)" class=" rounded-full text-md px-6 py-2 w-[100px] h-[50px] text-black font-extrabold mr-3">
+            <button id="coinBalanceBtn" style="background-color: rgba(65, 255, 107, 0.1)" class=" rounded-full text-md px-6 py-2 text-black font-extrabold mr-3 m:text-base w-[90px] sm:w-[100px] h-[44px] sm:h-[50px]">
 
             <span id="coinCount" class="flex gap-2 items-center text-center">
                   <span id="coinNumber">100</span>
@@ -47,7 +48,7 @@
             </button>
             </div>
 
-      <button id="navCopyBtn" class=" rounded-full text-md px-8 py-2 bg-[#00A63E] hover:bg-[#008a31] cursor-pointer transition-all duration-300 text-white">Copy</button>
+      <button id="navCopyBtn" class=" rounded-full text-md bg-[#00A63E] hover:bg-[#008a31] cursor-pointer transition-all duration-300 text-white sm:text-md px-5 sm:px-8 py-2">Copy</button>
       </div>
 </div>
 </nav>
@@ -55,9 +56,9 @@
 <!-- hero section  -->
 <div class="h-[240px] bg-gradient-to-r from-[#013223] via-[#027a54] to-[#013223] py-6 text-white  ">
       <div class="flex flex-col items-center text-center">
-      <img class="w-[92px] h-[92px] mb-2" src="./assets/logo-dark.png" alt="" srcset="">
-      <h1 class="font-bold text-[40px]">Emergency Service Directory</h1>
-      <p>Government Emergency Services at Your Fingertip – A Project by  Government of the People’s Republic of Bangladesh</p>
+      <img class="sm:w-24 sm:h-24 w-20 h-20 lg:w-[92px] lg:h-[92px] mb-2" src="./assets/logo-dark.png" alt="" srcset="">
+      <h1 class="font-bold text-2xl sm:text-3xl md:text-4xl">Emergency Service Directory</h1>
+      <p class="text-sm sm:text-base max-w-[420px] sm:max-w-xl md:max-w-2xl">Government Emergency Services at Your Fingertip – A Project by  Government of the People’s Republic of Bangladesh</p>
 </div>
 
 
@@ -65,8 +66,9 @@
 <section class="bg-[#ecfff0] pb-16">
 
 <!-- card1  -->
-<div class=" grid grid-cols-4 gap-4 max-w-[1800px] mx-10 mb-6 pt-10 mt-8 text-black " >
-      <div class="card bg-white px-6 rounded-md shadow-sm pb-6 h-[290px] w-full pt-4">
+<div class=" grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 max-w-[1800px] lg:mx-10 mb-6 pt-10 mt-8 text-black mx-4" >
+      
+      <div class="card sm:px-6 bg-white px-4 rounded-md shadow-sm pb-6 w-full pt-4">
             <span class="flex items-center justify-between ">
             <div class="bg-[#FFE3E2] rounded-lg p-2 flex items-center justify-center">
   <img class="w-5 h-5" src="./assets/emergency.png" alt="">
@@ -74,13 +76,13 @@
             <i class="fa-regular fa-heart cardLoveIcon"></i>
             </span>
             <div class="cardContainer">
-            <h3 class="tagline font-bold text-[20px] mt-2 ">National Emergency Number</h3>
-            <p class="leading-none text-sm mb-5">National Emergency</p>
-            <h2 class="cardText callCard font-bold text-[30px]">999</h2>
+            <h3 class="tagline font-bold text-base sm:text-lg md:text-xl mt-2 ">National Emergency Number</h3>
+            <p class="leading-none text-xs sm:text-sm mb-5">National Emergency</p>
+            <h2 class="cardText callCard font-bold text-2xl sm:text-3xl">999</h2>
             <buttton class="bg-[#efefef] p-2 rounded-full mb-6">All</buttton>
             <div class="callCard">
-                  <button class="copyBtn px-16 py-2 border-2 border-gray-200 bg-white hover:bg-gray-300 cursor-pointer transition-all duration-300 rounded-lg mt-7 mb-12 text-[#828282] text-sm"><i class="fa-regular fa-copy mr-2"></i>Copy</button>
-                  <button class="call-btn bg-[#00A63E]  hover:bg-[#008a31] cursor-pointer transition-all duration-300 px-16 py-2 rounded-lg mt-7 mb-12 text-white text-sm"><i class="fa-solid fa-phone mr-2 "></i>Call</button>
+                  <button class="copyBtn px-16 py-2 border-2 border-gray-200 bg-white hover:bg-gray-300 cursor-pointer transition-all duration-300 rounded-lg mt-7 mb-12 text-[#828282] text-xs sm:text-sm"><i class="fa-regular fa-copy mr-2"></i>Copy</button>
+                  <button class="call-btn bg-[#00A63E]  hover:bg-[#008a31] cursor-pointer transition-all duration-300 px-16 py-2 rounded-lg mt-7 mb-12 text-white text-xs sm:text-sm"><i class="fa-solid fa-phone mr-2 "></i>Call</button>
                   
             </div>
             </div>
@@ -135,15 +137,15 @@
 
 
 <!-- call history -->
-<div class="row-span-3 bg-white px-6 rounded-md shadow-sm w-full pt-4">
-  <div class="callHistory flex justify-between items-center relative ">
-    <h4><i class="fa-regular fa-clock mr-2"></i>Call History</h4>
-    <ul id="historyList"></ul>
-    <button id="clearHistoryBtn" 
-            class="rounded-full text-md px-5 py-2 bg-[#00A63E] hover:bg-[#008a31] cursor-pointer transition-all duration-300 text-white">
-      Clear
-    </button>
-  </div>
+<div class="lg:row-span-3 order-1  lg:order-none bg-white px-6 rounded-md shadow-sm w-full pt-3">
+      <div class="callHistory flex justify-between items-center mb-3">
+            <h4><i class="fa-regular fa-clock mr-2"></i>Call History</h4>
+            <button id="clearHistoryBtn" 
+            class=" rounded-full text-md px-5 py-2 bg-[#00A63E] hover:bg-[#008a31] cursor-pointer transition-all duration-300 text-white">
+            Clear
+      </button>
+</div>
+<ul id="historyList"></ul>
 </div>
 
 <!-- card 4  -->

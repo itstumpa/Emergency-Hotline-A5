@@ -119,5 +119,4 @@ callButtons.forEach((button) => {
   });
 });
 
-// Init coins on page load
 updateCoins();
