@@ -7,7 +7,9 @@ But querySelector is more flexible… I can use CSS selectors like #id, .class. 
 And querySelectorAll gives all the matching elements.
 
 2. How do you create and insert a new element into the DOM?
+
 First I create it with document.createElement. Then I can add text or attribute. After that, I use appendChild to add it inside the page.
+
 Like this:
 
 let div = document.createElement("div");
